@@ -8,7 +8,7 @@ Clone this repository into your ROS2 workspace:
 
 ```bash
 cd /path/to/your/ros2_workspace/sr
-git clone <repository_url>
+git clone https://github.com/TheGotGithub/RViz_robot_description.git
 ```
 ## Usage
 
