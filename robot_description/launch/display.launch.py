@@ -13,7 +13,7 @@ def generate_launch_description():
     robot_description_dir = get_package_share_directory("robot_description")
 
     model_arg = DeclareLaunchArgument(name="model", default_value=os.path.join(
-                                        robot_description_dir, "urdf", "BGK_robot.urdf.xacro"))
+                                        robot_description_dir, "description", "robot.urdf.xacro"))
 
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
                                        value_type=str)
