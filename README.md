@@ -7,7 +7,7 @@ This package contains the description of a robot for use with ROS2. It includes 
 Clone this repository into your ROS2 workspace:
 
 ```bash
-cd /path/to/your/ros2_workspace/sr
+cd /ros2_workspace/src
 git clone https://github.com/TheGotGithub/RViz_robot_description.git
 ```
 ## Usage
