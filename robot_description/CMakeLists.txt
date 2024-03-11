@@ -26,7 +26,6 @@ endif()
 install(DIRECTORY
   # add directories here
   launch
-  meshes
   description
   rviz
   DESTINATION share/${PROJECT_NAME})
