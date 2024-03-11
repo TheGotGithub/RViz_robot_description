@@ -28,5 +28,3 @@ You can customize the robot's configuration by modifying the `robot.urdf.xacro` 
 
 The parameters used in the URDF file are defined as properties in the robot_config.xacro file. These properties define dimensions, joint positions, and other customizable parameters. You can modify these property values in the robot_config.xacro file according to your requirements. By adjusting these values, you can easily customize the robot's dimensions and configurations without directly modifying the URDF file.
 
-After making changes to the URDF or property files, rebuild your ROS2 workspace to apply the modifications:
-
